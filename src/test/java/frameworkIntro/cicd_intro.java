@@ -39,7 +39,7 @@ public class cicd_intro {
 	 * working  directory[eclipse]----->staging area------------------>git repository----------------->git hub repository
 	 * untracked files-<add command>----tracked files-<commit command>-committed files-<push command>-remote files
 	 * 
-	 * workFlow:[for push]
+	 * #####workFlow:[for push]
 	 * 1->create local repository(one time for one project)===git init
 	 * 
 	 * 2->add files and folders to the staging==git add -A[all]; git add filename; git add foldername
@@ -54,7 +54,20 @@ public class cicd_intro {
 	 * 
 	 * 
 	 * 
-	 * workFlow:[for pull (gitHub to local system)]
+	 *#### workFlow:[for pull (gitHub to local system)]
+	 * 
+	 * git pull
+	 * 
+	 * 
+	 * ####workflow[clone existing  repository to local system]
+	 * 1->create a new folder in c driver, rt click open git cmd
+	 * 
+	 * 2->git clone "<repository url"
+	 * 
+	 * 3->import it in eclipse
+	 * 
+	 * 
+	 * 
 	 */
 	
 }
