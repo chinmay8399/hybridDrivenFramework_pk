@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Suite">
+
+
+
+<groups>
+	<run>
+		<include name="sanity">
+		</include>
+		<include name="dataDriven">
+		</include>
+		<exclude name="regression">
+		</exclude>
+	</run>
+</groups>
+
+<listeners>
+	<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+
+  <test thread-count="5" name="chromeTest">
+  
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+  
+    <classes>
+    <!-- to comment out in xml file-->
+    
+      <class name="testCases.tc001_accountRegistrationTest"/>
+      <class name="testCases.tc002_loginTest"/>
+      <class name="testCases.tc003_loginDataDrivenTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
