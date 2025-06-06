@@ -39,10 +39,22 @@ public class cicd_intro {
 	 * working  directory[eclipse]----->staging area------------------>git repository----------------->git hub repository
 	 * untracked files-<add command>----tracked files-<commit command>-committed files-<push command>-remote files
 	 * 
-	 * workFlow:
+	 * workFlow:[for push]
 	 * 1->create local repository(one time for one project)===git init
 	 * 
 	 * 2->add files and folders to the staging==git add -A[all]; git add filename; git add foldername
+	 * 
+	 * 3->shared the status of tracked files==git status
+	 * 
+	 * 4->commit changes to local repositories< along with change message comments>===git commit -m "commnets message"
+	 * 
+	 * 5->push files to gitHub==git push origin master
+	 * 
+	 * jenkins will pull the code from remote repository[git hub]
+	 * 
+	 * 
+	 * 
+	 * workFlow:[for pull (gitHub to local system)]
 	 */
 	
 }
